@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>final</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div class="cursor-background"></div>
+  <!-- start of header -->
+  <header>
+
+    <!--start of category offcanvas -->
+    <div class="offcanvas my-navbar-offcanvas offcanvas-start" tabindex="-1" id="category"
+      aria-labelledby="categoryLabel">
+      <div class="offcanvas-header justify-content-between">
+        <h5 class="offcanvas-title" id="categoryLabel">Category</h5>
+        <button type="button" aria-label="Close" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas"><i
+            class="fa-solid fa-arrow-left"></i></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row">
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-title" href="category.html">Controllers</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Game Controller</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Joystick</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Zero Lag Gamepad</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Dual Analog Gamepad</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Wired Series Joystick</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">LED Wireless Joystick</a></li>
+          </div>
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-title" href="category.html">KEYBOARDS</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Multi Color Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">USB Cable Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Classic Style Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Lightweight Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Wireless Keyboard</a></li>
+          </div>
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-title" href="category.html">MOUSEPADS</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Wireless Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">High Resolution Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Optical Wired Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">RGB Lighting Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Single</a></li>
+          </div>
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-title" href="category.html">GAMING ACCESSORIES</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Chair</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Game Racing Chair</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Headphone With Mic</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Virtual Reality Headset</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Headset Controller</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Desk</a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of category offcanvas -->
+
+    <!--start of pages<i class="fa-solid fa-arrow-right"></i>offcanvas -->
+    <div class="offcanvas my-navbar-offcanvas offcanvas-start" tabindex="-1" id="pages" aria-labelledby="pagesLabel">
+      <div class="offcanvas-header justify-content-between">
+        <h5 class="offcanvas-title" id="pagesLabel">Pages</h5>
+        <button type="button" aria-label="Close" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas"><i
+            class="fa-solid fa-arrow-left"></i></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row">
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-hover" href="#">Faq</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="#">blog</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="contact.html">Contact Us</a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of category offcanvas -->
+
+
+
+    <!--start of mobile navbar -->
+    <div class="offcanvas my-navbar-offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+      id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+      <div class="offcanvas-header">
+        <a class="navbar-brand w-25 d-lg-block" href="index.html"><img src="img/header-logo.png" alt=""></a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active" data-bs-toggle="offcanvas" href="#category" role="button"
+              aria-controls="category">
+              Categories <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="offcanvas" href="#pages" role="button" aria-controls="pages">
+              Pages <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+              <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of canvas for navbar -->
+
+    <!--start of right canvas -->
+    <div class="offcanvas my-offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+      aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title offcanvas-text" id="staticBackdropLabel">@APEXX</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 col-6">
+            <div class="img-product">
+              <img src="img/Product-1.png" class="card-img-top imgbehind1" alt="...">
+              <div class="overlay-img">
+                <a href="#" class="overlay-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-6">
+            <div class="img-product">
+              <img src="img/Product-2.png" class="card-img-top imgbehind1" alt="...">
+              <div class="overlay-img">
+                <a href="#" class="overlay-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-6">
+            <div class="img-product">
+              <img src="img/Product-3.png" class="card-img-top imgbehind1" alt="...">
+              <div class="overlay-img">
+                <a href="#" class="overlay-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-6">
+            <div class="img-product">
+              <img src="img/Product-4.png" class="card-img-top imgbehind1" alt="...">
+              <div class="overlay-img">
+                <a href="#" class="overlay-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="mb-30 offcanvas-text">SOCIAL MEDIA</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+              <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <h3 class="mt-20 mb-20 offcanvas-text">CONTACT US</h3>
+            <div class="contact-details">
+              <div class="single-detail d-flex">
+
+                <p><span>Phone:</span><a href="tel:000 - 123 - 456789"> 000 - 123 - 456789</a></p>
+              </div>
+
+              <div class="single-detail d-flex">
+
+                <p><span>Email:</span><a href="mailto:support@example.com"> support@example.com</a></p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of right canvas -->
+
+
+    <!--start of desktop navbar -->
+    <nav class="navbar navbar-expand-lg" id="header">
+      <div class="container">
+        <button class="navbar-toggler m-10" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas"
+          aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="text-light"><i class="fa-solid fa-bars-staggered"></i></span>
+        </button>
+        <div class="d-lg-none d-flex align-items-center ms-auto icons-links-responsive">
+          <a href="cart.html" class="position-relative me-3">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div id="cart-count-mobile" class="cart-count">0</div>
+          </a>
+          <div id="user-icon-container-mobile" class="">
+            <a href="login.html"><i class="fa-regular fa-user"></i></a>
+            <a href="#" id="signOutIcon" style="display: none;"><i class="fa-solid fa-right-from-bracket"></i></a>
+          </div>
+
+          <button class="btn-canva ml-10" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+            aria-controls="staticBackdrop"><i class="fa-solid fa-bars-staggered"></i></button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-between position-relative" id="navbarSupportedContent">
+          <div class="header-left">
+            <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="img/header-logo.png" alt=""></a>
+          </div>
+          <div class="header-center d-none d-lg-block">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="category.html" role="button">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <div class="row">
+                    <div class="col-3">
+                      <li><a class="dropdown-item dropdown-title" href="category.html">Controllers</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Game Controller</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Joystick</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Zero Lag Gamepad</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Dual Analog Gamepad</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Wired Series Joystick</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">LED Wireless Joystick</a></li>
+                    </div>
+                    <div class="col-3">
+                      <li><a class="dropdown-item dropdown-title" href="category.html">KEYBOARDS</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Multi Color Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">USB Cable Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Classic Style Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Lightweight Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Wireless Keyboard</a></li>
+                    </div>
+                    <div class="col-3">
+                      <li><a class="dropdown-item dropdown-title" href="category.html">MOUSEPADS</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Wireless Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">High Resolution Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Optical Wired Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">RGB Lighting Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Single</a></li>
+                    </div>
+                    <div class="col-3">
+                      <li><a class="dropdown-item dropdown-title" href="category.html">GAMING ACCESSORIES</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Chair</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Game Racing Chair</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Headphone With Mic</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Virtual Reality Headset</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Headset Controller</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Desk</a></li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="product.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item dropdown-title" href="#">Blog</a></li>
+                  <li><a class="dropdown-item dropdown-title" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item dropdown-title" href="contact.html">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="header-right d-none d-lg-block">
+            <div class="icons-links d-flex">
+              <div id="user-icon-container">
+                <a href="login.html"><i class="fa-regular fa-user"></i></a>
+                <a href="#" id="signOutIcon" style="display: none;"><i class="fa-solid fa-right-from-bracket"></i></a>
+              </div>
+
+              <a href="cart.html" class="position-relative me-3">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <div id="cart-count-desktop" class="cart-count">0</div>
+              </a>
+              <a class="btn-canva" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                aria-controls="staticBackdrop"><i class="fa-solid fa-bars-staggered"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--start of desktop navbar -->
+  </header>
+  <!-- end of header -->
+
+  <!-- start of banner section -->
+  <section class="first-sec product-image">
+    <div class="container">
+      <div class="content">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item title-breadcrumb active" aria-current="page">GAMING DESK</li>
+            </ol>
+          </nav>
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">GAMING DESK</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- end of banner section -->
+
+
+
+  <!-- start of product section -->
+  <div class="section mt-50 product-details">
+    <!-- Product Details Section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="container media-gallery">
+            <div class="row">
+              <div class="col-lg-2 col-md-12 col-sm-12 slider-column">
+                <div class="slider">
+                  <div class="slider-item mb-20">
+                    <img src="img/default.jpg" class="slider-image" alt="Product 1">
+                  </div>
+                  <div class="slider-item mb-20">
+                    <img src="img/default.jpg" class="slider-image" alt="Product 2">
+                  </div>
+                  <div class="slider-item mb-20">
+                    <img src="img/default.jpg" class="slider-image" alt="Product 3">
+                  </div>
+                  <div class="slider-item">
+                    <img src="img/default.jpg" class="slider-image" alt="Product 4">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-10 col-md-12 col-sm-12 main-photo-column">
+                <div class="main-photo">
+                  <img src="img/default.jpg" class="main-photo-image" alt="Main Product Image">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="product-body">
+            <h2 class="product-title">Product Title</h2>
+            <ul class="review-list">
+              <li>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span> 1 review</span>
+              </li>
+            </ul>
+            <div class="prices d-flex p-15">
+              <p class="pr-10 fw-bold fs-4">0.00</p>
+            </div>
+            <div class="product-btns mb-40" data-attribute="material">
+              <h6>MATERIAL : <span class="selected-value" id="selected-material">None</span></h6>
+              <div class="btns">
+                <!-- Material buttons will be populated here -->
+              </div>
+            </div>
+            <div class="product-btns mb-40" data-attribute="size">
+              <h6>Size : <span class="selected-value" id="selected-size">None</span></h6>
+              <div class="btns">
+                <!-- Size buttons will be populated here -->
+              </div>
+            </div>
+            <div class="product-btns mb-40" data-attribute="shape">
+              <h6>SHAPE : <span class="selected-value" id="selected-shape">None</span></h6>
+              <div class="btns">
+                <!-- Shape buttons will be populated here -->
+              </div>
+            </div>
+            <div class="product-btns">
+              <h6 class="fs-5 mb-10">Hurry! Only 14 left in stock</h6>
+              <div class="progress mb-15" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 25%"></div>
+              </div>
+              <a href="#" class="share-link"><i class="fa-solid fa-share-nodes"></i> share</a>
+              <div class="product-btns mt-15">
+                <div class="row">
+                  <div class="col-3 col-sm-3 col-lg-3">
+                    <div class="quantity-control">
+                      <button class="quantity-btn" id="decrement">-</button>
+                      <input type="text" id="quantity" value="1" readonly>
+                      <button class="quantity-btn" id="increment">+</button>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-12 pe-0 col-lg-12 col-xxl-9">
+                    <a href="#" class="back-btn w-100" onclick="addToCart(1); return false;">add to cart</a>
+                  </div>
+                  <div class="col-12 pe-0 mt-15">
+                    <a href="#" class="order-btn w-100">buy it now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- end of product section -->
+
+    <!-- start of faq section -->
+    <div class="section mt-40">
+      <div class="container">
+        <div class="row justify-content-center">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item mb-10" role="presentation">
+              <button class="nav-link tab-btn " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item mb-10" role="presentation">
+              <button class="nav-link tab-btn" id="pills-profile-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item mb-10" role="presentation">
+              <button class="nav-link tab-btn active" id="pills-contact-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content mt-15" id="pills-tabContent">
+            <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam
+                dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des
+                commodo pharetras loremos.Donec pretium egestas sapien et mollis.</p>
+              <br>
+              <p><strong>Lorem ipsum dolor sit amet</strong></p>
+              <br>
+              <p>Sonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              <br>
+              <p><strong>Busey ipsum dolor sit amet</strong></p>
+              <br>
+              <p>
+                Tortor at auctor urna nunc id cursus metus aliquam. Odio tempor orci dapibus ultrices. Tortor
+                condimentum lacinia quis vel eros donec ac odio. Velit euismod in pellentesque massa placerat duis
+                ultricies lacus. Scelerisque purus semper eget duis at tellus at urna condimentum. Eu facilisis sed odio
+                morbi quis commodo odio aenean urpis massa sed elemen.
+              </p>
+              <br>
+              <p><strong>Vestibulum sit amet ipsum</strong></p>
+              <br>
+              <p>Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras
+                felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra
+                convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id
+                ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan quis
+                justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus in lectus volutpat, ut
+                dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.
+              </p>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+              tabindex="0">
+              <p><strong>RETURNS POLICY:</strong></p>
+              <br>
+              <p>Most brand-new, unopened items are eligible for returns and full refunds within 30 days of delivery.
+                Should the return stem from an error on our part (you received a damaged or wrong item, for example), we
+                will additionally cover the cost of return postage.
+              </p>
+              <br>
+              <p>Once you provide your box to the return shipper, you should expect to get your refund within four
+                weeks; however, you will often receive your refund sooner. This duration encompasses the transit time (5
+                to 10 business days) for us to receive your return from the shipper, the processing time (3 to 5
+                business days) for us to process your return, and the time your bank needs to prepare our reimbursement
+                request (5 to 10 business days).
+              </p>
+              <br>
+              <p><strong>SHIPPING:</strong></p>
+              <br>
+              <p>
+                We are able to send to almost any address worldwide. Be aware that some products are subject to
+                limitations and that shipments of some products to foreign locations are not permitted.
+              </p>
+              <br>
+              <p>Depending on the availability of your items and the shipping options you select, we will estimate
+                shipping and delivery dates for you at the time of order placement. Shipping date estimates could show
+                up on the shipping quotes page, depending on the shipping company you select.
+              </p>
+            </div>
+            <div class="tab-pane fade  show active" id="pills-contact" role="tabpanel"
+              aria-labelledby="pills-contact-tab" tabindex="0">
+              <div class="row">
+                <div class="col-12">
+                  <div class="comments-section">
+                    <ul class="review-list text-center">
+                      <li>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <span> 3.00 out of 5 </span>
+                      </li>
+                      <span> Based on 1 review</span>
+                    </ul>
+                    <ul class="review-list text-center">
+                      <li>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <div class="progress-container">
+                          <div class="progress-bar w-75"></div>
+                        </div>
+                        <span class="review-count">75</span>
+                      </li>
+                      <li>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <div class="progress-container">
+                          <div class="progress-bar w-50"></div>
+                        </div>
+                        <span class="review-count">50</span>
+                      </li>
+                      <li>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <div class="progress-container">
+                          <div class="progress-bar w-0"></div>
+                        </div>
+                        <span class="review-count">0</span>
+                      </li>
+                      <li>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <div class="progress-container">
+                          <div class="progress-bar w-50"></div>
+                        </div>
+                        <span class="review-count">50</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="dropdown-container">
+                    <select class="review-sort-dropdown">
+                      <option value="most-recent">Most Recent</option>
+                      <option value="highest-rating">Highest Rating</option>
+                    </select>
+                  </div>
+                  <div class="row mt-20">
+                    <div class="col-6">
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="col-6 text-end">
+                      <span>06/10/2024</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2 mt-10">
+                      <div class="user-icon">
+                        <i class="fa-regular fa-user"></i>
+                        <span class="review-date">Customer</span>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <br>
+                      <p><strong>Aliquet risus feugiat in ante metus dictum at tempor commodo.</strong></p>
+                      <br>
+                      <p>Egestas dui id ornare arcu odio ut sem nulla pharetra. Justo eget magna fermentum iaculis eu
+                        non diam phasellus. Ut faucibus pulvinar elementum integer enim neque volutp
+                      </p>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of faq section -->
+
+    <!-- start of related section -->
+    <div class="section mt-40 related-products">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="mb-30 fs-3 fw-bold">RECOMMENDED PRODUCTS</h3>
+          </div>
+          <div class="row">
+            <section class="splide" aria-label="Splide Basic HTML Example">
+              <div class="splide__track">
+                <ul class="splide__list" id="relatedProducts">
+
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of related section -->
+
+    <button class="btn btn-info" id="fixBtn">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <!-- start of footer section -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+            <div class="footer-logo">
+              <img src="img/footer-logo_1.png" alt="">
+            </div>
+            <p class="mt-20">Sed libero odio, sollicitudin a porttitor ac, tempor eu nisi. Nulla sit amet suscipit
+              dolormentum mauris in, rutrum augue. </p>
+            <div class="links justify-content-start mt-30 mb-10">
+              <a href="#">
+                <img src="img/google-icon-1.png" alt="Link Image 1">
+              </a>
+              <a href="#">
+                <img src="img/apple-icon.png" alt="Link Image 2">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <div class="footer-title mb-20">
+              <h3>useful links</h3>
+            </div>
+            <ul class="links-footer">
+              <li>
+                <a href="#">search</a>
+              </li>
+              <li>
+                <a href="#">site map</a>
+              </li>
+              <li>
+                <a href="#">help</a>
+              </li>
+              <li>
+                <a href="#">services</a>
+              </li>
+              <li>
+                <a href="#">careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <div class="footer-title mb-20">
+              <h3>help & support</h3>
+            </div>
+            <ul class="links-footer">
+              <li>
+                <a href="#">customer support</a>
+              </li>
+              <li>
+                <a href="#">forums</a>
+              </li>
+              <li>
+                <a href="#">testimonials</a>
+              </li>
+              <li>
+                <a href="#">gift card</a>
+              </li>
+              <li>
+                <a href="#">contact form</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-6 col-6">
+            <div class="footer-title mb-20">
+              <h3>resources</h3>
+            </div>
+            <ul class="links-footer">
+              <li>
+                <a href="#">community</a>
+              </li>
+              <li>
+                <a href="#">disclaimer</a>
+              </li>
+              <li>
+                <a href="#">license</a>
+              </li>
+              <li>
+                <a href="#">Privacy</a>
+              </li>
+              <li>
+                <a href="#">Partnerships</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row justify-content-between">
+            <div class="col-lg-4 col-sm-6">
+              <ul class="help-links">
+                <li><a href="">terms & conditions</a></li>
+                <li><a href="">privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <p class="text-light">All Right Reserved © 2024 Designthemes</p>
+            </div>
+            <div class="col-lg-4 col-sm-8">
+              <div class="social-icons text-end">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer section -->
+
+
+
+    <!-- start of java script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+    <!-- end of java script -->
+</body>
+
+</html>

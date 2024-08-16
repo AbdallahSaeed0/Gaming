@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semi final</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+   <!-- start of header -->
+   <header>
+
+    <!--start of category offcanvas -->
+    <div class="offcanvas my-navbar-offcanvas offcanvas-start" tabindex="-1" id="category"
+      aria-labelledby="categoryLabel">
+      <div class="offcanvas-header justify-content-between">
+        <h5 class="offcanvas-title" id="categoryLabel">Category</h5>
+        <button type="button" aria-label="Close" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas"><i
+            class="fa-solid fa-arrow-left"></i></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row">
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-title" href="category.html">Controllers</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Game Controller</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Joystick</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Zero Lag Gamepad</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Dual Analog Gamepad</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Wired Series Joystick</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">LED Wireless Joystick</a></li>
+          </div>
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-title" href="category.html">KEYBOARDS</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Multi Color Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">USB Cable Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Classic Style Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Lightweight Keyboard</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Wireless Keyboard</a></li>
+          </div>
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-title" href="category.html">MOUSEPADS</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Wireless Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">High Resolution Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Optical Wired Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">RGB Lighting Mouse</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Single</a></li>
+          </div>
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-title" href="category.html">GAMING ACCESSORIES</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Chair</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Game Racing Chair</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Headphone With Mic</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Virtual Reality Headset</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Headset Controller</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Desk</a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of category offcanvas -->
+
+    <!--start of pages offcanvas -->
+    <div class="offcanvas my-navbar-offcanvas offcanvas-start" tabindex="-1" id="pages"
+      aria-labelledby="pagesLabel">
+      <div class="offcanvas-header justify-content-between">
+        <h5 class="offcanvas-title" id="pagesLabel">Pages</h5>
+        <button type="button" aria-label="Close" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas"><i
+            class="fa-solid fa-arrow-left"></i></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row">
+          <div class="col-12">
+            <li><a class="dropdown-item dropdown-hover" href="#">Faq</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="#">blog</a></li>
+            <li><a class="dropdown-item dropdown-hover" href="contact.html">Contact Us</a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of category offcanvas -->
+
+
+
+    <!--start of mobile navbar -->
+    <div class="offcanvas my-navbar-offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+      id="navbarOffcanvas" aria-labelledby="navbarOffcanvasLabel">
+      <div class="offcanvas-header">
+        <a class="navbar-brand w-25 d-lg-block" href="index.html"><img src="img/header-logo.png" alt=""></a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active" data-bs-toggle="offcanvas" href="#category" role="button"
+              aria-controls="category">
+              Categories <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="offcanvas" href="#pages" role="button"
+            aria-controls="pages">
+             Pages <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+              <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of canvas for navbar -->
+
+    <!--start of right canvas -->
+    <div class="offcanvas my-offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+      aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title offcanvas-text" id="staticBackdropLabel">@APEXX</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 col-6">
+            <div class="img-product">
+              <img src="img/Product-1.png" class="card-img-top imgbehind1" alt="...">
+              <div class="overlay-img">
+                <a href="#" class="overlay-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-6">
+            <div class="img-product">
+              <img src="img/Product-2.png" class="card-img-top imgbehind1" alt="...">
+              <div class="overlay-img">
+                <a href="#" class="overlay-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-6">
+            <div class="img-product">
+              <img src="img/Product-3.png" class="card-img-top imgbehind1" alt="...">
+              <div class="overlay-img">
+                <a href="#" class="overlay-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-6">
+            <div class="img-product">
+              <img src="img/Product-4.png" class="card-img-top imgbehind1" alt="...">
+              <div class="overlay-img">
+                <a href="#" class="overlay-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="mb-30 offcanvas-text">SOCIAL MEDIA</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+              <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <h3 class="mt-20 mb-20 offcanvas-text">CONTACT US</h3>
+            <div class="contact-details">
+              <div class="single-detail d-flex">
+
+                <p><span>Phone:</span><a href="tel:000 - 123 - 456789"> 000 - 123 - 456789</a></p>
+              </div>
+
+              <div class="single-detail d-flex">
+
+                <p><span>Email:</span><a href="mailto:support@example.com"> support@example.com</a></p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of right canvas -->
+
+
+ <!--start of desktop navbar -->
+    <nav class="navbar navbar-expand-lg" id="header">
+      <div class="container">
+        <button class="navbar-toggler m-10" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas"
+          aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="text-light"><i class="fa-solid fa-bars-staggered"></i></span>
+        </button>
+        <div class="d-lg-none d-flex align-items-center ms-auto icons-links-responsive">
+          <a href="cart.html" class="position-relative me-3">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div id="cart-count-mobile" class="cart-count">0</div>
+          </a>
+          <div id="user-icon-container-mobile" class="">
+            <a href="login.html"><i class="fa-regular fa-user"></i></a>
+            <a href="#" id="signOutIcon" style="display: none;"><i class="fa-solid fa-right-from-bracket"></i></a>
+          </div>
+
+          <button class="btn-canva ml-10" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+            aria-controls="staticBackdrop"><i class="fa-solid fa-bars-staggered"></i></button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-between position-relative" id="navbarSupportedContent">
+          <div class="header-left">
+            <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="img/header-logo.png" alt=""></a>
+          </div>
+          <div class="header-center d-none d-lg-block">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="category.html" role="button">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <div class="row">
+                    <div class="col-3">
+                      <li><a class="dropdown-item dropdown-title" href="category.html">Controllers</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Game Controller</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Joystick</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Zero Lag Gamepad</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Dual Analog Gamepad</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Wired Series Joystick</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">LED Wireless Joystick</a></li>
+                    </div>
+                    <div class="col-3">
+                      <li><a class="dropdown-item dropdown-title" href="category.html">KEYBOARDS</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Multi Color Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">USB Cable Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Classic Style Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Lightweight Keyboard</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Wireless Keyboard</a></li>
+                    </div>
+                    <div class="col-3">
+                      <li><a class="dropdown-item dropdown-title" href="category.html">MOUSEPADS</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Wireless Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">High Resolution Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Optical Wired Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">RGB Lighting Mouse</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Single</a></li>
+                    </div>
+                    <div class="col-3">
+                      <li><a class="dropdown-item dropdown-title" href="category.html">GAMING ACCESSORIES</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Chair</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Game Racing Chair</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Headphone With Mic</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Virtual Reality Headset</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Headset Controller</a></li>
+                      <li><a class="dropdown-item dropdown-hover" href="product.html">Gaming Desk</a></li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="product.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item dropdown-title" href="#">Blog</a></li>
+                  <li><a class="dropdown-item dropdown-title" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item dropdown-title" href="contact.html">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="header-right d-none d-lg-block">
+            <div class="icons-links d-flex">
+              <div id="user-icon-container">
+                <a href="login.html"><i class="fa-regular fa-user"></i></a>
+                <a href="#" id="signOutIcon" style="display: none;"><i class="fa-solid fa-right-from-bracket"></i></a>
+              </div>
+
+              <a href="cart.html" class="position-relative me-3">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <div id="cart-count-desktop" class="cart-count">0</div>
+              </a>
+              <a class="btn-canva" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                aria-controls="staticBackdrop"><i class="fa-solid fa-bars-staggered"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--start of desktop navbar -->
+  </header>
+  <!-- end of header -->
+
+
+  <!-- start of banner section -->
+  <section class="first-sec product-image">
+    <div class="container">
+      <div class="content">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item title-breadcrumb active" aria-current="page">Category</li>
+            </ol>
+          </nav>
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Category</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- end of banner section -->
+
+
+
+
+  <!-- start of products section -->
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="col-sm-8 col-lg-12 sorting-filter">
+            <div class="btn-group ml-10">
+              <button class="btn sort-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true"
+                aria-expanded="false">
+                Sort By
+              </button>
+              <ul class="dropdown-menu drop-filter">
+                <li><a class="dropdown-item" href="#">Featured</a></li>
+                <li><a class="dropdown-item" href="#">Best selling</a></li>
+                <li><a class="dropdown-item" href="#">Alphabetically, A-Z</a></li>
+                <li><a class="dropdown-item" href="#">Alphabetically, Z-A</a></li>
+                <li><a class="dropdown-item" href="#">Price, low to high</a></li>
+                <li><a class="dropdown-item" href="#">Price, high to low</a></li>
+                <li><a class="dropdown-item" href="#">Date, old to new</a></li>
+                <li><a class="dropdown-item" href="#">Date, new to old</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="category-show">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <!-- start of fliters -->
+  
+            <div class="section mb-40">
+              <div class="container">
+                <div class="fliter-wrapper">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row justify-content-between">
+                        <div class="align-items-center flex-wrap">
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-item" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Category
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                    <label class="form-check-label" for="flexCheckDefault1">
+                                      Adventure (4)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                    <label class="form-check-label" for="flexCheckDefault2">
+                                      Exploration (5)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                    <label class="form-check-label" for="flexCheckDefault3">
+                                      fps(2)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                    <label class="form-check-label" for="flexCheckDefault4">
+                                      Indie (2)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                                    <label class="form-check-label" for="flexCheckDefault5">
+                                      Open World (10)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                                    <label class="form-check-label" for="flexCheckDefault6">
+                                      Puzzle (1)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                                    <label class="form-check-label" for="flexCheckDefault7">
+                                      RPG (1)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                    <label class="form-check-label" for="flexCheckDefault8">
+                                      Simulation (10)
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-item" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#price" aria-expanded="true" aria-controls="price">
+                                  Price
+                                </button>
+                              </h2>
+                              <div id="price" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="mb-20">The highest price is $17,000.00</p>
+                                  <form>
+                                    <div class="row">
+  
+                                      <div class="mb-3 col-6">
+                                        <label for="priceFrom" class="form-label">From</label>
+                                        <input type="number" class="form-control" id="priceFrom" placeholder="0">
+                                      </div>
+                                      <div class="mb-3 col-6">
+                                        <label for="priceTo" class="form-label">To</label>
+                                        <input type="number" class="form-control" id="priceTo" placeholder="1000$">
+                                      </div>
+                                    </div>
+  
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion" id="availability">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-item" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#availability" aria-expanded="true" aria-controls="availability">
+                                  Availability
+                                </button>
+                              </h2>
+                              <div id="availability" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#availability">
+                                <div class="accordion-body">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="inStock">
+                                    <label class="form-check-label" for="inStock">
+                                      In stock (13)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="outOfstock">
+                                    <label class="form-check-label" for="outOfstock">
+                                      Out of stock (2)
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-item" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Product type
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="chair">
+                                    <label class="form-check-label" for="chair">
+                                      Chair (2)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="controller">
+                                    <label class="form-check-label" for="controller">
+                                      Controller (3)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="gameDesks">
+                                    <label class="form-check-label" for="gameDesks">
+                                      Game Desks (1)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="graphicsCard">
+                                    <label class="form-check-label" for="graphicsCard">
+                                      Graphics Card (1)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="headPhone">
+                                    <label class="form-check-label" for="headPhone">
+                                      Headphone (2)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="headset">
+                                    <label class="form-check-label" for="headset">
+                                      Headset (1)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="keyboard">
+                                    <label class="form-check-label" for="keyboard">
+                                      Keyboard (1)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="mouse">
+                                    <label class="form-check-label" for="mouse">
+                                      Mouse (1)
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="weel">
+                                    <label class="form-check-label" for="weel">
+                                      Weel (1)
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="fliter-banner mt-30">
+                  <img src="img/promo-banner-collections_750x.png" alt="">
+                </div>
+              </div>
+  
+            </div>
+          </div>
+          <!-- end of fliters -->
+          <div class="col-12 col-lg-8">
+            <div class="row" id="showDataAll">
+            </div>
+  
+          </div>
+        </div>
+      </div>
+      
+
+
+
+    </div>
+  </div>
+  </div>
+  <!-- end of products section -->
+  <button class="btn btn-info" id="fixBtn">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+
+  <!-- start of footer section -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6">
+          <div class="footer-logo">
+            <img src="img/footer-logo_1.png" alt="">
+          </div>
+          <p class="mt-20">Sed libero odio, sollicitudin a porttitor ac, tempor eu nisi. Nulla sit amet suscipit
+            dolormentum mauris in, rutrum augue. </p>
+          <div class="links justify-content-start mt-30 mb-10">
+            <a href="#">
+              <img src="img/google-icon-1.png" alt="Link Image 1">
+            </a>
+            <a href="#">
+              <img src="img/apple-icon.png" alt="Link Image 2">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-6">
+          <div class="footer-title mb-20">
+            <h3>useful links</h3>
+          </div>
+          <ul class="links-footer">
+            <li>
+              <a href="#">search</a>
+            </li>
+            <li>
+              <a href="#">site map</a>
+            </li>
+            <li>
+              <a href="#">help</a>
+            </li>
+            <li>
+              <a href="#">services</a>
+            </li>
+            <li>
+              <a href="#">careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-6">
+          <div class="footer-title mb-20">
+            <h3>help & support</h3>
+          </div>
+          <ul class="links-footer">
+            <li>
+              <a href="#">customer support</a>
+            </li>
+            <li>
+              <a href="#">forums</a>
+            </li>
+            <li>
+              <a href="#">testimonials</a>
+            </li>
+            <li>
+              <a href="#">gift card</a>
+            </li>
+            <li>
+              <a href="#">contact form</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-6">
+          <div class="footer-title mb-20">
+            <h3>resources</h3>
+          </div>
+          <ul class="links-footer">
+            <li>
+              <a href="#">community</a>
+            </li>
+            <li>
+              <a href="#">disclaimer</a>
+            </li>
+            <li>
+              <a href="#">license</a>
+            </li>
+            <li>
+              <a href="#">Privacy</a>
+            </li>
+            <li>
+              <a href="#">Partnerships</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row justify-content-between">
+          <div class="col-lg-4 col-sm-6">
+            <ul class="help-links">
+              <li><a href="">terms & conditions</a></li>
+              <li><a href="">privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <p class="text-light">All Right Reserved © 2024 Designthemes</p>
+          </div>
+          <div class="col-lg-4 col-sm-8">
+            <div class="social-icons text-end">
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+              <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer section -->
+
+
+  <!-- start of java script -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+  <!-- end of java script -->
+</body>
+
+</html>

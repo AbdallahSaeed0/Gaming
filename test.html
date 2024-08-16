@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll to Top Button</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Style the button */
+        #fixBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Content -->
+    <div class="container">
+        <h1>Scroll to Top Example</h1>
+        <div style="height: 2000px;">
+            <p>Scroll down to see the button.</p>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="btn btn-info" id="fixBtn">Up</button>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const btn = document.getElementById('fixBtn');
+
+            // Show button when scrolled down
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 300) { // Show button after scrolling down 300px
+                    btn.style.display = 'block';
+                } else {
+                    btn.style.display = 'none';
+                }
+            });
+
+            // Scroll to top when button is clicked
+            btn.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
