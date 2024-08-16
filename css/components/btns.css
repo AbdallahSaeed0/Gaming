@@ -1,0 +1,137 @@
+
+.order-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 15px 40px !important;
+    color: #000;
+    background-color: rgb(204, 255, 0);
+    transition: all 0.3s linear;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    transition: all 300ms linear;
+    position: relative;
+    z-index: 10;
+}
+
+.order-btn:hover {
+    color: rgb(204, 255, 0);
+    background-color: rgba(30, 33, 24);
+    border-top: .1rem solid rgb(255, 255, 255, 1);
+    border-bottom: .1rem solid rgb(255, 255, 255, 1);
+}
+
+.order-btn::before,
+.order-btn::after,
+.back-btn::before,
+.back-btn::after {
+    content: "";
+    background-image: url('../../img/image.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transition: background-image 0.3s ease;
+
+}
+
+.order-btn:hover::before,
+.order-btn:hover::after,
+.back-btn:hover::before,
+.back-btn:hover::after {
+    filter: brightness(0) invert(1);
+}
+
+
+.order-btn::before,
+.back-btn::before {
+    left: 5px;
+    top: 15%;
+    transform: rotate(-90deg);
+}
+
+.order-btn::after,
+.back-btn::after {
+    right: 5px;
+    top: 15%;
+    transform: rotate(90deg);
+}
+
+.back-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-top: .1rem solid rgb(255, 255, 255, 1);
+    border-bottom: .1rem solid rgb(255, 255, 255, 1);
+    padding: 15px 40px !important;
+    color: rgb(204, 255, 0);
+    background-color: rgba(30, 33, 24);
+    transition: all 0.3s linear;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    transition: all 300ms linear;
+    position: relative;
+    z-index: 10;
+
+}
+
+.back-btn:hover {
+    background-color: rgb(204, 255, 0);
+    color: rgb(30, 33, 24);
+}
+
+.back-btn::before,
+.back-btn::after,
+.back-btn::before,
+.back-btn::after {
+    content: "";
+    background-image: url('../../img/image.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transition: background-image 0.3s ease;
+    filter: brightness(2) invert(1);
+}
+
+.back-btn:hover::before,
+.back-btn:hover::after,
+.back-btn:hover::before,
+.back-btn:hover::after {
+    filter: brightness(1) invert(0);
+}
+
+
+.back-btn::before,
+.back-btn::before {
+    left: 5px;
+    top: 15%;
+    transform: rotate(-90deg);
+}
+
+.back-btn::after,
+.back-btn::after {
+    right: 5px;
+    top: 15%;
+    transform: rotate(90deg);
+}
+
+.btns-product .btn-product {
+    display: grid;
+    place-items: center;
+    border-radius: 0;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 300ms linear all;
+    background-color: rgba(30, 33, 24);
+    color: rgb(204, 255, 0);
+    opacity: 1;
+    padding: 0;
+    border: .1rem solid rgb(255, 255, 255, .15);
+}

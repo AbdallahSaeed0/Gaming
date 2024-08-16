@@ -1,0 +1,6 @@
+.header-fixed{
+    position: fixed;
+    box-shadow: 0 0 0 3px rgba(238, 148, 65, 0.3);
+    background-color: white;
+    width: 100%;
+}

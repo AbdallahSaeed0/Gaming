@@ -1,0 +1,227 @@
+.navbar {
+    padding: 0px;
+    background-color: rgba(28, 31, 24, 0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 6;
+    color: #fff !important;
+  }
+  
+  .header-left img {
+    width: 50px;
+  }
+  
+  .icons-links i {
+    font-size: 21px;
+    padding: 9px;
+    color: #fff;
+  }
+  .icons-links-responsive i {
+    font-size: 21px;
+    color: #fff;
+  }
+
+  .offcanvas-backdrop.show {
+    opacity: 0;
+  }
+  
+  .offcanvas-backdrop.stacked-backdrop.show {
+    opacity: 0.5;
+  }
+  
+  .offcanvas.stacked {
+    z-index: 1056;
+  }
+  
+  
+  .nav-item.dropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: visibility 0.3s linear, opacity 0.3s linear, transform 0.3s linear;
+    visibility: hidden;
+    z-index: 1000;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    padding: 10px 40px;
+  }
+  
+  .offcanvas-body .dropdown-title{
+    margin: 15px 0;
+  }
+  .offcanvas-header button{
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+  }
+  .dropdown-title{
+    color: #fff;
+    transition: all 300ms linear;
+    margin-bottom: 10px !important;
+  }
+  .dropdown-title:hover{
+    color: rgb(204, 255, 0) !important;
+  }
+.dropdown-hover{
+    color: rgba(255, 255, 255, .73) !important;
+    transition: all 300ms linear;
+    transform: translateX(0px)
+  }
+ .dropdown-hover:hover{
+    color: rgb(204, 255, 0) !important;
+    transform: translateX(5px);
+  }
+  .icons-links .cart-count{
+    bottom: -.2rem;
+  }
+  .cart-count {
+    position: absolute;
+    background-color: rgb(204, 255, 0);
+    color: #000;
+    height: 1.1rem;
+    width: 1.1rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .6rem;
+    bottom: -.6rem;
+    left: 48%;
+  }
+  
+ .dropdown-menu li a{
+    font-size: 16px;
+    padding: 10px !important;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    color: #fff !important;
+    padding: 30px !important;
+  }
+  .offcanvas-body .nav-item .nav-link i{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+ .offcanvas-body .nav-item .nav-link {
+    font-size: 18px;
+    color: #fff !important;
+    padding: 10px !important;
+  }
+  
+  .social-icons i {
+    color: rgb(204, 255, 0);
+    border: 1px solid rgb(255,255,255,.15);
+    font-size: 20px;
+    padding: 10px 10px;
+    transition: all 300ms linear;
+  }
+  
+  .social-icons a:hover i {
+    transform: scale(1.07);
+    border: 1px solid rgb(204, 255, 0);
+  }
+  
+  .navbar-collapse {
+    display: flex;
+  }
+  
+  .header-bottom {
+    flex-direction: row;
+  }
+  
+  .btn-canva {
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .img-product {
+    border: 1px solid rgba(255, 255, 255, .15);
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .overlay-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    gap: 15px;
+    background: rgba(30, 33, 24, 0.8);
+    transition: all 0.3s linear;
+    transform: scale(0.8);
+  }
+  
+  .overlay-img:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .overlay-icon {
+    color: rgba(204, 255, 0, 1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-icon:hover {
+    border: 1px solid rgb(204, 255, 0);
+    transition: all 300ms linear;
+  }
+  
+  .offcanvas-text {
+    font-weight: bold;
+    font-size: 26px;
+  }
+  
+  .my-offcanvas, .my-navbar-offcanvas {
+    background-color: #111410;
+    color: #fff;
+  }
+  
+  .social-icons a {
+    padding: 10px 5px 10px 5px;
+  }
+  
+  ul li .dropdown-menu {
+    background-color: rgb(28,31,24);
+    width: max-content;
+  }
+  .my-navbar-offcanvas ul li .first-drop{
+    inset: auto auto -40px 21px !important;
+  }
+
+  .my-navbar-offcanvas ul li .second-drop{
+    inset: auto auto -140px 21px !important;
+  }
+
+
+  
+  ul li .dropdown-item:hover{
+    background-color: transparent;
+  }
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+
+  .btn-close{
+    background-image: url("../../img/output-onlinepngtools.png");
+  }

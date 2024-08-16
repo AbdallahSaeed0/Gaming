@@ -1,0 +1,67 @@
+.contact-wrapper {
+    padding: 80px 0;
+}
+
+.contact-wrapper h2 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.contact-wrapper .form-control {
+    background-color: rgb(28, 31, 24) !important;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255, .15) !important;
+    padding: 15px 0;
+    border-radius: 0;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.form-control:focus {
+    color: #fff !important;
+    border: 1px solid rgb(204, 255, 0) !important;
+}
+
+.contact-wrapper .form-control {
+    border: #fff solid 1px;
+}
+
+.contact-wrapper textarea {
+    min-height: 100px;
+}
+
+.contact-wrapper h3{
+    font-size: 60px;
+    font-weight: bold;
+}
+.contact-wrapper span{
+    font-size: 16px;
+}
+.contact-wrapper p{
+    color: rgb(255, 255, 255, .73);
+    font-size: 16px;
+}
+.contact-info{
+    text-align: center;
+}
+.contact-info .contact-icon i{
+    font-size: 70px;
+    color: rgb(204, 255, 0);
+    margin-bottom: 20px;
+
+}
+.contact-text h5{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-text p{
+color: rgb(255, 255, 255, .73);
+font-size: 16px;
+}
+.contact-item{
+    border: 1px solid rgb(255, 255, 255, .15) !important;
+    padding: 50px 0 ;
+}

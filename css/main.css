@@ -1,0 +1,46 @@
+/* vendors */
+/* base */
+/* pages*/
+/* fonts */
+/* components */
+/* layout */
+/* responsive */
+
+/* vendors Folder Style */
+@import url(./vendors/all.min.css);
+@import url(./vendors/fontawesome.min.css);
+@import url(./vendors/bootstrap.min.css);
+@import url(./vendors/swiper-bundle.min.css);
+@import url(./vendors/splide.min.css);
+
+/* base Style */
+@import url(./base/base.css);
+
+/* fonts */
+@import url(./fonts.css);
+
+/* components */
+@import url(./components/rating.css);
+@import url(./components/btns.css);
+
+/* layout Style Start*/
+@import url(./layout/header.css);
+@import url(./layout/navbar.css);
+@import url(./layout/footer.css);
+/* layout Style End*/
+
+/* pages Start*/
+@import url(./pages/home.css);
+@import url(./pages/product.css);
+@import url(./pages/category.css);
+@import url(./pages/about.css);
+@import url(./pages/contact.css);
+@import url(./pages/cart.css);
+@import url(./pages/check-out.css);
+@import url(./pages/sign-up.css);
+
+/* responsive */
+@import url(./responsive/responsive.css);
+
+
+

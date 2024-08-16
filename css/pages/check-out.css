@@ -1,0 +1,59 @@
+.check-wrapper {
+    background-color: transparent;
+}
+
+.check-wrapper h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.check-wrapper .form-control {
+    border: 1px solid #ddd;
+    background-color: transparent;
+    color: #fff; 
+}
+
+.check-wrapper .form-control::placeholder {
+    color: #888;
+}
+
+.check-wrapper textarea {
+    min-height: 50px;
+}
+
+.check-wrapper a {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px 0 !important;
+}
+
+.check-wrapper a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.cart-summary {
+    margin-top: 20px;
+}
+.cart-summary .product-table{
+    border: 1px solid #ddd;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}

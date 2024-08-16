@@ -1,0 +1,35 @@
+.sign-wrapper {
+    background-color: transparent;
+}
+
+.sign-wrapper h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.sign-wrapper .form-control {
+    border: 1px solid #ddd;
+    background-color: transparent;
+    color: #fff; 
+}
+
+.sign-wrapper .form-control::placeholder {
+    color: #888;
+}
+
+.sign-wrapper textarea {
+    min-height: 50px;
+}
+
+.sign-wrapper a {
+    text-align: center;
+    transition: all 0.3s linear;
+    color: rgb(204, 255, 0);
+    padding: 10px 0 !important;
+}
+
+.sign-wrapper a:hover {
+    color: #fff;
+}

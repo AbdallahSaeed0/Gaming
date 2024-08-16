@@ -1,0 +1,91 @@
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0 20px 0;
+}
+
+.footer-logo img{
+    width: 180px;
+}
+footer p{
+    color:rgb(255, 255, 255, .73);
+    font-size: 16px;
+}
+.links-footer a{
+    color: #aeaeae;
+    font-size: 14px;
+    padding-bottom: 5px !important;
+}
+
+.links-footer a:hover{
+    color: #fff;
+}
+footer input{
+    margin-left: 20px;
+    border-radius: 0 !important;
+    color: #fff !important;
+    background: black !important;
+}
+footer input:focus {
+border-color: #fff !important;
+box-shadow: none !important;
+}
+footer button{
+    border-radius: 0 !important;
+    background: black !important;
+    color: #fff !important;
+    border-right: 1px solid #fff !important;
+    border-top: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+    border-left: 0 !important;
+}
+
+footer .social i{
+    color: #fff;
+    padding: 11px;
+    font-size: 22px;
+}
+
+footer .social a:hover i{
+    transform: scale(1.07);
+}
+.footer-bottom{
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(255 255 255 / 20%);
+}
+.footer-bottom p{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.help-links{
+    display: flex;
+    gap: 40px;
+}
+.help-links a{
+color: rgb(255, 255, 255, .73);
+}
+
+.help-links a:hover{
+    color: rgba(204, 255, 0,);
+}
+
+.help-links li{
+    position: relative;
+}
+
+.help-links li:not(:last-child):after{
+    position: absolute;
+    content: "";
+    right: -15%;
+    top: 50%;
+    width: 2px;
+    height: 1em;
+    border-right: 1px solid rgba(255,255,255, .15);
+    transform: translateY(-50%);
+}
+.footer-title h3{
+    font-size: 20px;
+}

@@ -1,0 +1,325 @@
+.product-image {
+    background-image: url(../../img/bread-crumb-1.5x.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-transform: capitalize;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.product-image .breadcrumb-item {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title-breadcrumb {
+    font-size: 60px !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: rgba(204, 255, 0);
+    content: var(--bs-breadcrumb-divider, "-");
+}
+
+.price-sale {
+    color: #fff;
+    padding: 5px 7px;
+    margin-left: 10px;
+}
+
+.media-gallery {
+    margin: 20px 0;
+}
+
+.slider-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slider-item {
+    cursor: pointer;
+}
+
+.slider-image {
+    width: 100%;
+    transition: transform 0.2s;
+}
+
+.main-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255, .15);
+    z-index: 1;
+    position: relative;
+}
+
+.main-photo-image {
+    width: 100%;
+    max-width: 600px;
+    transition: opacity 0.5s;
+}
+
+.main-photo-image.transitioning {
+    opacity: 0.5;
+}
+
+.slider-image {
+    border: 1px solid rgb(255, 255, 255, .15);
+    z-index: 1;
+    position: relative;
+}
+
+.slider-image.active {
+    border: 2px solid #000;
+}
+
+.slider-image.blurred {
+    opacity: 0.5;
+}
+
+
+.product-detail {
+    font-size: 14px;
+    color: #fff;
+    width: 22%;
+    border: #000 1px solid;
+    padding: 11px 10px !important;
+    border-radius: 0;
+    border-block: 1px solid rgb(255, 255, 255, .15);
+    transition: all .4s ease;
+    background-color: transparent;
+}
+
+.product-detail:hover {
+    border: rgba(204, 255, 0) 1px solid;
+    color: #fff;
+}
+
+.product-detail.selected {
+    border: rgba(204, 255, 0) 1px solid;
+    color: rgba(204, 255, 0);
+}
+
+.selected-value {
+    color: rgba(204, 255, 0);
+}
+
+.progress {
+    height: 3px;
+}
+
+.progress-bar {
+    background-color: rgb(204, 255, 0);
+}
+
+.share-link {
+    color: #fff;
+    transition: all .4s ease;
+}
+
+.share-link:hover {
+    color: rgba(204, 255, 0);
+}
+
+.quantity-control {
+    display: inline-flex;
+    align-items: center;
+    border-block: 1px solid rgba(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.quantity-btn {
+    background-color: rgba(30, 33, 24);
+    color: #fff;
+    font-size: 18px;
+    padding: 13px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    border: none;
+}
+
+.quantity-btn:hover {
+    color: rgba(204, 255, 0, 1);
+}
+
+#quantity {
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(30, 33, 24);
+    padding: 10px;
+    color: #fff;
+    border: none;
+}
+
+
+
+.stock-para::before {
+    content: "";
+    background-color: #ee9441;
+    width: 10px;
+    box-shadow: 0 0 0 3px rgba(238, 148, 65, 0.3);
+    height: 10px;
+    display: inline-block;
+    margin-right: 7px;
+    border-radius: 74%;
+}
+
+.product-body {
+    position: sticky;
+    top: 20px;
+    /* Adjust this value to the desired offset from the top */
+}
+
+
+.review-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comments-section .review-list li{
+
+    justify-content: center;
+}
+.review-list li {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px; 
+}
+
+.review-list .stars {
+    margin-right: 10px;
+}
+.progress-container {
+    width: 150px; 
+    height: 10px;
+    background-color: rgba(224,224,224,0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px; 
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #9EC90A;
+}
+
+.review-count {
+    font-size: 14px;
+    color: #fff;
+}
+
+.tab-btn, .tab-btn:hover{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-top: .1rem solid rgb(255, 255, 255, 1);
+    border-bottom: .1rem solid rgb(255, 255, 255, 1);
+    padding: 15px 40px !important;
+    color: rgb(204, 255, 0);
+    background-color: rgba(30, 33, 24);
+    transition: all 0.3s linear;
+    font-weight: 700;
+    transition: all 300ms linear;
+    position: relative;
+    z-index: 10;
+    margin-right: 10px;
+    border-radius: 0 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: rgb(204, 255, 0);
+    color: rgb(30, 33, 24);
+}
+
+.tab-btn::before,
+.tab-btn::after {
+    content: "";
+    background-image: url('../../img/image.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transition: background-image 0.3s ease;
+    filter: brightness(1) invert(0);
+    opacity: 0;
+}
+
+.tab-btn::before {
+    left: 5px;
+    top: 15%;
+    transform: rotate(-90deg);
+}
+
+.tab-btn::after{
+    right: 5px;
+    top: 15%;
+    transform: rotate(90deg);
+}
+
+.tab-btn:focus::before,
+.tab-btn:focus::after,
+.tab-btn.active::before,
+.tab-btn.active::after {
+    opacity: 1; 
+}
+
+.review-sort-dropdown{
+background-color: transparent;
+color: #9EC90A;
+border:none ;
+}
+
+.dropdown-container{
+    border-block: 1px solid rgba(158,201,10,0.1);
+    padding-block: 15px;
+}
+.user-icon i{
+    color: #9EC90A;
+    padding: 7px;
+    background-color: rgba(224,224,224,0.5);
+}
+.product-card .imgbehind2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transition: opacity .4s cubic-bezier(.25, .46, .45, .94), transform .4s cubic-bezier(.25, .46, .45, .94);
+}
+
+.product-card .imgbehind1 {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1);
+}
+
+.product-card .imgbehind2 {
+    opacity: 0;
+    z-index: 0;
+    transform: scale(1);
+}
+
+.product-card:hover .imgbehind1 {
+    opacity: 0;
+    transform: scale(1);
+}
+
+.product-card:hover .imgbehind2 {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1.05);
+}
+
+
+.related-products .splide__arrow, .related-products .splide__arrow:hover{ 
+display: none;
+}

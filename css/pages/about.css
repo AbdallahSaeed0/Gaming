@@ -1,0 +1,109 @@
+.food-banner {
+    background-image: url(../../img/banner-about.png);
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.counter-item{
+    font-size: 90px;
+    font-weight: bold;
+}
+.counter-desc{
+    color: rgba(255,255,255,.73);
+    font-size: 16px;
+}
+.team .card{
+    background-color: transparent;
+    border: .1rem solid rgb(255,255,255,.15);
+}
+
+.team .card-body{
+    border-top: .1rem solid rgb(255,255,255,.15);
+    padding: 20px 0;
+}
+.team .card-body h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.team .card-body p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 12px;
+}
+.team .team-img{
+    position: relative;
+    overflow: hidden;
+}
+.team .social-icons {
+    padding: 15px 0;
+    position: absolute;
+    bottom: -73px;
+    opacity: 0;
+    width: 100%;
+    background-color: #111410;
+    transition: .3s linear all;
+}
+.team .card:hover .social-icons {
+    bottom: 0;
+    opacity: 1;
+}
+
+.team .social-icons a{
+padding: 0 3px !important;
+}
+
+.newsletter input{
+background-color: rgb(28, 31, 24)  !important;
+color: #fff;
+text-align: center;
+border: 1px solid  rgb(255,255,255,.15);
+padding: 15px 0;
+border-radius: 0;
+border-left: none;
+border-right: none;
+}
+.form-control:focus{
+    color: #fff;
+    border: 1px solid rgb(204, 255, 0);
+}
+.newsletter .order-btn {
+    font-size: 24px;
+    padding: 20px 40px !important;
+}
+.insta-section{
+    padding: 10px 20px;
+}
+.insta-section h3{
+font-size: 60px;
+font-weight: bold;
+}
+.insta-section span{
+    font-size: 16px;
+}
+.insta-img{
+    overflow: hidden;
+    position: relative;
+}
+.insta-img img {
+    transition: transform 500ms ease;
+}
+
+.insta-img:hover img {
+    transform: scale(1.1);
+}
+.insta-img .overlay-img{
+    background-color: transparent !important;
+}
+.insta-img .overlay-icon{
+    background-color: rgba(30, 33, 24, 0.8);
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+}

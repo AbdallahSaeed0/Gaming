@@ -1,0 +1,629 @@
+@media (max-width: 576px) {
+    .newsletter .order-btn {
+        font-size: 18px;
+        padding: 10px 25px !important;
+    }
+    .product-image{
+        height: 290px;
+    }
+
+    .product-image .breadcrumb-item {
+        font-size: 12px;
+    }
+    .title-breadcrumb {
+        font-size: 30px !important;
+    }
+
+    .nav-pills{
+        place-content: center;
+    }
+    .product-details .back-btn, .product-details  .order-btn{
+        padding: 15px 40px !important;
+    }
+    .product-detail {
+        font-size: 8px;}
+    .slider{
+        display: flex;
+    }
+    .media-gallery .row, .category-show .row{
+        flex-direction: column-reverse;
+    }
+    .slider-column{
+        margin-top: 20px;
+    }
+    
+    .span-blog img {
+        width: 20%;
+        margin-left: 1px;
+    }
+
+    .banner-app {
+        height: 155px !important;
+    }
+
+    .banner-app p {
+        font-size: 0.5em;
+        margin: 0 auto 0.4em auto;
+    }
+
+    .banner-app h2 {
+        font-size: 0.7em;
+        margin: 0.3em 0;
+    }
+
+    .review-carousel .splide__slide, .related-products .splide__slide  {
+        width: 100% !important;
+    }
+
+    .card-slider .card-info h4 {
+        font-size: 14px;
+    }
+
+    .partner {
+        border-bottom: .1rem solid rgb(255, 255, 255, .15);
+    }
+    .span-blog {
+        width: 22%;
+        right: 140px;
+    }
+
+    .card-slider .card-info p,
+    .card-slider .product-body p {
+        font-size: 6px !important;
+    }
+
+    .slider-container h1 {
+        font-size: 16px;
+    }
+
+    .banner-info {
+        padding: 40px;
+    }
+
+    .title-span,
+    .header-span {
+        font-size: 8px;
+    }
+
+    .back-btn,
+    .order-btn {
+        font-size: 12px;
+        padding: 10px 30px !important;
+    }
+
+    .title-span,
+    .header-span {
+        font-size: 8px;
+    }
+
+    .back-btn::before,
+    .back-btn::after,
+    .back-btn::before,
+    .back-btn::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .order-btn::before,
+    .order-btn::after,
+    .back-btn::before,
+    .back-btn::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .title-span::after,
+    .header-span::after {
+        width: 25px;
+        height: 25px;
+        right: -31px;
+    }
+
+    .service-header {
+        font-size: 30px;
+    }
+
+    .fun-img {
+        width: 40px;
+        margin: 0 10px;
+    }
+
+    .fun-title {
+        font-size: 30px;
+    }
+
+    .card-info p,
+    .product-body p {
+        font-size: 12px;
+    }
+
+    .product-body h2 {
+        font-size: 30px;
+    }
+
+    .how-we-info h4 {
+        font-size: 20px;
+    }
+
+    .how-we-li {
+        color: rgba(255, 255, 255, 0.73);
+        font-size: 14px;
+    }
+
+    .splide__arrow {
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title {
+        font-size: 24px;
+    }
+
+    .quote-img img {
+        width: 40px;
+        height: 30px;
+    }
+
+    .review-img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .banner-app {
+        height: 355px;
+    }
+
+    .slider-btns {
+        margin-top: 10px;
+        width: max-content;
+    }
+
+    .card-info h4 {
+        font-size: 14px;
+    }
+
+    .card-info p,
+    .product-body p {
+        font-size: 10px;
+    }
+
+    .main-caroisel .card-info p {
+        font-size: 7px;
+    }
+
+    .slider-btns .back-btn,
+    .slider-btns .order-btn {
+        font-size: 8px;
+        padding: 6px 13px !important;
+
+    }
+
+    .back-btn,
+    .order-btn {
+        font-size: 10px;
+        padding: 5px 20px !important;
+    }
+
+    .order-btn::before,
+    .order-btn::after,
+    .back-btn::before,
+    .back-btn::after {
+        width: 18px;
+        height: 18px;
+    }
+
+    .swipe-left {
+        left: 8px;
+    }
+
+    .splide__arrow {
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+        top: -40px;
+    }
+
+    .words-swipe {
+        width: 97%;
+    }
+
+    .banner-info .mt-30 {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .newsletter .order-btn {
+        font-size: 18px;
+        padding: 10px 25px !important;
+    }
+    .product-image{
+        height: 340px;
+    }
+    .title-breadcrumb {
+        font-size: 50px !important;
+    }
+    .nav-pills{
+        place-content: center;
+    }
+    .product-details .back-btn, .product-details  .order-btn{
+        padding: 15px 40px !important;
+    }
+    .product-detail {
+        font-size: 12px;}
+    .slider{
+        display: flex;
+    }
+    .media-gallery .row, .category-show .row{
+        flex-direction: column-reverse;
+    }
+    .slider-column{
+        margin-top: 20px;
+    }
+    
+    .review-carousel .splide__slide{
+        width: 100% !important;
+    }
+    .related-products .splide__slide {
+        width: 50% !important;
+    }
+
+    .card-slider .card-info h4 {
+        font-size: 14px;
+    }
+
+    .card-slider .card-info p,
+    .card-slider .product-body p {
+        font-size: 6px !important;
+    }
+
+    .slider-container h1 {
+        font-size: 16px;
+    }
+
+    .banner-info {
+        padding: 40px;
+    }
+
+    .title-span,
+    .header-span {
+        font-size: 8px;
+    }
+
+    .span-blog {
+        width: 25%;
+
+    }
+    .back-btn,
+    .order-btn {
+        font-size: 12px;
+        padding: 10px 30px !important;
+    }
+
+    .title-span,
+    .header-span {
+        font-size: 8px;
+    }
+
+    .span-blog img {
+        width: 20%;
+        margin-left: 1px;
+    }
+
+    .back-btn::before,
+    .back-btn::after,
+    .back-btn::before,
+    .back-btn::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .order-btn::before,
+    .order-btn::after,
+    .back-btn::before,
+    .back-btn::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .title-span::after,
+    .header-span::after {
+        width: 25px;
+        height: 25px;
+        right: -31px;
+    }
+
+    .service-header {
+        font-size: 30px;
+    }
+
+    .fun-img {
+        width: 40px;
+        margin: 0 10px;
+    }
+
+    .fun-title {
+        font-size: 30px;
+    }
+
+    .card-info p,
+    .product-body p {
+        font-size: 12px;
+    }
+
+    .product-body h2 {
+        font-size: 30px;
+    }
+
+    .how-we-info h4 {
+        font-size: 20px;
+    }
+
+    .how-we-li {
+        color: rgba(255, 255, 255, 0.73);
+        font-size: 14px;
+    }
+
+    .splide__arrow {
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-title {
+        font-size: 24px;
+    }
+
+    .quote-img img {
+        width: 40px;
+        height: 30px;
+    }
+
+    .review-img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .banner-app {
+        height: 355px;
+    }
+
+    .banner-app h2 {
+        font-size: 1.2em;
+    }
+
+    .banner-app p {
+        font-size: 0.7em;
+        margin: 0 auto 0.6em auto;
+    }
+
+    .banner-app h2 {
+        font-size: 0.9em;
+        margin: 0.5em 0;
+    }
+
+    .slider-btns {
+        margin-top: 10px;
+        width: max-content;
+    }
+
+    .card-info h4 {
+        font-size: 14px;
+    }
+
+    .card-info p,
+    .product-body p {
+        font-size: 10px;
+    }
+
+    .main-caroisel .card-info p {
+        font-size: 7px;
+    }
+
+    .slider-btns .back-btn,
+    .slider-btns .order-btn {
+        font-size: 8px;
+        padding: 6px 13px !important;
+
+    }
+
+    .back-btn,
+    .order-btn {
+        font-size: 10px;
+        padding: 5px 20px !important;
+    }
+
+    .order-btn::before,
+    .order-btn::after,
+    .back-btn::before,
+    .back-btn::after {
+        width: 18px;
+        height: 18px;
+    }
+
+    .swipe-left {
+        left: 8px;
+    }
+
+    .splide__arrow {
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+        top: -40px;
+    }
+
+    .words-swipe {
+        width: 97%;
+    }
+
+    .banner-info .mt-30 {
+        margin-top: 10px;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1440px) {
+
+    .contact-text p {
+        color: rgb(255, 255, 255, .73);
+        font-size: 14px;
+    }
+    .contact-text h5 {
+        font-size: 26px;}
+
+    .product-image{
+        height: 460px;
+    }
+
+    .nav-pills{
+        place-content: center;
+    }
+    .product-details .back-btn, .product-details  .order-btn{
+        padding: 15px 40px !important;
+    }
+    .slider-container h1 {
+        font-size: 24px;
+    }
+
+    .back-btn,
+    .order-btn {
+        font-size: 12px;
+        padding: 10px 30px !important;
+    }
+
+    .title-span,
+    .header-span {
+        font-size: 10px;
+    }
+
+    .back-btn::before,
+    .back-btn::after,
+    .back-btn::before,
+    .back-btn::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .order-btn::before,
+    .order-btn::after,
+    .back-btn::before,
+    .back-btn::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .title-span::after,
+    .header-span::after {
+        width: 30px;
+        height: 30px;
+        right: -40px;
+    }
+
+    .service-header {
+        font-size: 30px;
+    }
+
+    .fun-img {
+        width: 40px;
+        margin: 0 10px;
+    }
+
+    .span-blog img {
+        width: 20%;
+        margin-left: 1px;
+    }
+
+    .fun-title {
+        font-size: 30px;
+    }
+
+    .card-info p,
+    .product-body p {
+        font-size: 12px;
+    }
+
+    .card-info h4 {
+        font-size: 30px;
+    }
+
+    .product-body h2 {
+        font-size: 30px;
+    }
+
+    .how-we-info h4 {
+        font-size: 20px;
+    }
+
+    .how-we-li {
+        color: rgba(255, 255, 255, 0.73);
+        font-size: 14px;
+    }
+
+    .review-slider .splide__arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .quote-img img {
+        width: 40px;
+        height: 30px;
+    }
+
+    .review-img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .banner-app {
+        height: 400px;
+    }
+
+    .banner-app h2 {
+        font-size: 1.8em;
+    }
+
+    .banner-app p {
+        font-size: 1.0em;
+        margin: 0 auto 0.8em auto;
+    }
+
+    .banner-app h2 {
+        font-size: 1.8em;
+        margin: 0.5em 0;
+    }
+
+    .slider-btns {
+        margin-top: 10px;
+    }
+
+    .card-info h4 {
+        font-size: 20px;
+    }
+
+    .card-info p,
+    .product-body p {
+        font-size: 10px;
+    }
+
+    .slider-btns .back-btn,
+    .slider-btns .order-btn {
+        font-size: 10px;
+        padding: 9px 17px !important;
+
+    }
+
+    .words-swipe {
+        width: 97%;
+    }
+
+    .review-carousel .splide__slide, .related-products .splide__slide {
+        width: 50% !important;
+    }
+
+}
