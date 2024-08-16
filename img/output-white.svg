@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+	<title>output-onlinepngtools (1)</title>
+	<defs>
+		<image  width="122" height="66" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAABCCAMAAACvrjIWAAAAAXNSR0IB2cksfwAAAFFQTFRFAAAABS5kBSxl7+/uBS1lBCxlACBgBC1mBS1mBSpjBi1mBCxkBCtjBCxmBCxmBixlBi1lAC1pADBgBi1mBitkCidiBitlBC1lBCxlBitkACxkoQa35gAAABt0Uk5TADiV/6Z0CHiUNihAO7Kti4kREFBUGoixr4cXQ9tQxQAAAaZJREFUeJy92UtLQzEQBeAZRYuW0hb1//87VxZFxAdVar3e9iY3mWTm5HE2gROSbxOyGSbiv+ypW67553DFH8S0+B6KxXsn+fZrWC72vPwcq072KBPd8OosdrHPMi35cqo72JN8fGMO3d52ZeL1Wz/bk1e8fXU3m9qeTGumu5dOti9vdkx0/9zF9uXt0/FL6WQH8kD3sEP5n25vR+SRbm3H5BPd1o7KZ7qlHZcnup0tyA7dypZkl25ji7JHt7Bl2afr2wl5Rte2U/Kcrmsn5YCuaaflkK5nZ+QIXcvOyTG6jp2Vo3QNOy/H6XJbIQt0qa2RJbrMVskiXWLrZJnGbaWcoFFbK6dozFbLSRqx9XKattsGOUNbbYuco222Sc7SFtsm52m9bZQVtNa2yhpaZ5tlFa2x7bKOztuArKRzNiJr6bQNyWo6ZWOynpZtUDbQko3KFjpuw7KJjtm4bKNDu0A20nObCmQrPbO9GGUzLdtW2U5LtlkG6LhtlxE6ZgMyRIc2ImP03IZkkPZtTEZp1wZlmJ5sVMbp03xss0MvwGl6GGbuj/D5X0e75oX7Xp/zAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="14" y="42"/>
+</svg>
